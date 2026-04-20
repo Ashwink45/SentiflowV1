@@ -1,0 +1,14 @@
+streamlit
+pandas
+numpy
+polars
+plotly
+requests
+bcrypt
+extra-streamlit-components
+azure-storage-blob
+python-dotenv
+fastapi
+uvicorn
+pillow
+pyodbc
