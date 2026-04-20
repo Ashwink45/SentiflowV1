@@ -6,8 +6,10 @@ colorTo: indigo
 sdk: docker
 app_port: 7860
 pinned: false
-license: mit
 ---
 
-# 📊 SentiFlow Dashboard
-This project uses Docker to host a Streamlit frontend and a FastAPI backend.
+# 📊 SentiFlow: Sentiment Analysis Dashboard
+This is a research-focused application that performs sentiment analysis on data pulled from **Azure Blob Storage**.
+
+## 🚀 How it Works
+This Space uses a multi-process Docker container to run both a Streamlit UI (Port 7860) and a FastAPI backend (Port 8000).
