@@ -1,13 +1,12 @@
 ---
 title: SentiFlow
-emoji: 📈
+emoji: 📊
 colorFrom: blue
 colorTo: indigo
 sdk: docker
 app_port: 7860
 pinned: false
-license: mit
 ---
 
-# 📊 SentiFlow Dashboard
-This project runs a Streamlit UI and a FastAPI backend using Docker.
+# 📊 SentiFlow: Sentiment Analysis Dashboard
+This Space runs a **FastAPI** backend and a **Streamlit** frontend inside a Docker container.
