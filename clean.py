@@ -5,7 +5,7 @@ import requests  # top of file
 from config import CONN_STR as conn_str
 import os 
 
-FASTAPI_URL = os.getenv("FASTAPI_URL", "http://host.docker.internal:8000/analyze")
+FASTAPI_URL = os.getenv("FASTAPI_URL", "http://127.0.0.1:8000/analyze")
 
 # 🔐 Azure connection string
 
