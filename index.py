@@ -465,7 +465,7 @@ with tab3:
                     font=dict(color=font_clr), showlegend=False,
                     margin=dict(t=20, b=20, l=20, r=20), height=300
                 )
-                st.plotly_chart(fig_pie, use_container_width=True)
+                st.plotly_chart(fig_pie, width="stretch")
 
             with col_right:
                 fig_bar = go.Figure(data=[go.Bar(
@@ -485,7 +485,7 @@ with tab3:
                     bargap=0.35,
                     margin=dict(t=20, b=20, l=20, r=20), height=300
                 )
-                st.plotly_chart(fig_bar, use_container_width=True)
+                st.plotly_chart(fig_bar, width="stretch")
 
             # keywords
             st.markdown('<div class="section-title">🔍 Distinctive Keywords</div>', unsafe_allow_html=True)
