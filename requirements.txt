@@ -13,3 +13,4 @@ uvicorn
 pillow
 pyodbc
 transformers
+torch
