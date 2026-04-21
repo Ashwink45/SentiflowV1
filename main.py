@@ -59,7 +59,7 @@ def analyze(data: PipelineInput):
         # Since the model is already in RAM, this starts IMMEDIATELY.
         # We use a batch_size of 32 to feed the CPU efficiently.
         print(f"--- 🧠 Analyzing {len(texts)} rows... ---")
-        raw_results = classifier(texts, batch_size=32, truncation=True)
+        raw_results = classifier(texts, batch_size=32, truncation=True, max_length=512)
         
         # Map labels to human words
         sentiments = [LABEL_MAPPING[res['label']] for res in raw_results]
