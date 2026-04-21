@@ -12,3 +12,4 @@ fastapi
 uvicorn
 pillow
 pyodbc
+transformers
