@@ -18,7 +18,7 @@ def get_connection():
         f"UID={os.getenv('DB_USER')};"
         f"PWD={os.getenv('DB_PASSWORD')};"
         "Encrypt=yes;"
-        "TrustServerCertificate=no;"
+        "TrustServerCertificate=yes;"
         "Connection Timeout=30;"
     )
 
